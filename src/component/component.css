@@ -1,0 +1,47 @@
+.header{
+    width: 100%;
+    background-color: #639fed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .header h1 {
+  color: white;
+  font-size: 60px;
+  padding-right: 10%;
+  }
+  
+  label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    font-size: larger;
+    padding:0 10% 1% 0;
+  }
+  input{
+    margin:0 10% 1% 0;
+    width: 84%;
+    height: 44px;
+      padding: 15px;
+    border-radius: 7px;
+    border: none;
+  }
+  .button-add{
+    margin:0 10% 4% 0;
+    background-color: #639fed ;
+      color: white;
+      width: 8%;
+      height: 43px;
+      border: solid powderblue 1px;
+      border-radius: 5px;
+      font-size: 18px;
+  }
+  .title{
+    color: gray;
+    text-align: center;
+  }
+  .crossed{
+    text-decoration: line-through;
+  }
